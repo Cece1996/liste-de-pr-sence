@@ -1,0 +1,78 @@
+ main{
+	text-align: justify-all;
+	width: 900px;
+	margin: 100px 150px;
+	padding: 60px;
+	box-shadow: 0 0 40px;
+	height: 1100px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 50px;
+	border-top-color: #FF3333;
+	border-top-height: 10px;
+	border-top: 25px solid red;
+}
+table{
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: auto;
+	min-width: 800px;
+	position: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 800;
+}
+main{
+	font-size: medium;
+	border-radius: 5px solid #000;
+}
+th{
+	background-color: #FF0000;
+	color: #FFF;
+}
+p.slogan{
+	text-align: center;
+	color: #484848;
+}
+td,th{
+	border: 1px solid black;
+}
+tr{
+	border-top: solid black;
+	border-bottom: solid black;
+	border-width: 2px solid black;
+}
+.droite{
+	float: right;
+	padding-right: 250px;
+	color: #FF3333;
+}
+.dev{
+	color: #FF3333;
+}
+.nom, .liste{
+	font-weight: bolder;
+
+}
+td,th{
+	height: 30px;
+}
+
+th,td.numero{
+	text-align: center;
+}
+td{
+	padding-left: 9px;
+}
+header p{
+	padding-left: 60px;
+	font-size: 1.5em;
+}
+.trait{
+	display: flex;
+	justify-content: space-between;
+	height: 0;
+	width: 60px;
+	border-bottom: 10px solid #FF3333;
+	margin-bottom: 45px;
+	margin-left: 70px;
+}
